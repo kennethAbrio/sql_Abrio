@@ -1,0 +1,46 @@
+CREATE DATABASE basketball;
+USE basketball;
+CREATE TABLE GoldenStateWarriors(
+Jersey_Number int not null,
+First_Name VARCHAR(50),
+Last_Name VARCHAR(50),
+Positions VARCHAR(50),
+Teams VARCHAR(50),
+Points float,
+Stats float,
+Birthday DATE,
+Age int,
+Gender VARCHAR(50),
+PRIMARY KEY(Jersey_Number));
+
+
+INSERT INTO GoldenStateWarriors(Jersey_Number,First_Name,Last_Name,Positions,Teams,Points,Stats,Birthday,Age,Gender) VALUES 
+(7, 'PATRICK', 'BALDWIN', 'FORWARD', 'GSW', 3.9, 39.5, '2002-11-18', 20, 'MALE'),
+(30, 'STEPHEN', 'CURRY', 'POINT GUARD', 'GSW', 29.4, 49.3, '1998-03-19', 35, 'MALE'),
+(0,'DONTE', 'DIVINZENZO','SHOOTING GUARD','GSW',9.4,43.5, '1997-01-31', 26, 'MALE'),
+(23,'DRAMOND','GREEN','POWER FORWARD','GSW',9.4,43.5,'1990-03-04',26,'MALE'),
+(1,'JAMYCHAL','GREEN','FORWARD','GSW',6.4,54.2, '1990-01-28',32,'MALE'),
+(9,'ANDRE','IGOUDALA','FORWARD','GSW',2.1,46.7, '1984-01-28',39,'MALE'),
+(10,'TY','KUMIGA','SHOOTING GUARD','GSW',6.9,48.8, '1997-07-08',25,'MALE'),
+(27,'JONATHAN','KUMIGA','POWER FORWARD', 'GSW', 9.9,52.5, '2002-10-06', 20,'MALE'),
+(40,'ANTHONY','LAMB','FORWARD','GSW',6.7,47.1, '1998-01-20',25,'MALE'),
+(5,'KEVIN','LOONEY','FORWARD','GSW',7.1,6.2, '1996-02-06',27,'MALE'),
+(8,'GARY','PAYTON','SHOOTING GUARD', 'GSW',4.6,  59.4, '1992-12-01', 30, 'MALE'),
+(25,'LESTER','QUINONES','GUARD','GSW',2.5,40.5, '2000-11-10',22, 'MALE'),
+(2,'RYAN','ROLLIS','GUARD', 'GSW',1.9,35.5, '2002-07-03',20,'MALE'),
+(11,'KLAY','THOMPSON','SHOOTING GUARD','GSW',21.9,43.6, '1990-02-08', 33, 'MALE'),
+(22,'ANDREW','WIGGINS','SMALL FORWARD','GSW',17.1,47.4, '1995-002-23',28,'MALE');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
